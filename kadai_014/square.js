@@ -4,9 +4,8 @@ let num = 10;
 // C#だと、関数は後から定義できてたけど、こっちだと最初に書かないといけないのか。
 // 書き方工夫しないと見づらいかも。
 const squareCalc = (Num) => {
-    let squareNum = Num * Num; // 2倍にするなら * 2
-    console.log(squareNum);
+    return Num*Num;
 }
 
 // その後で呼び出す
-squareCalc(num);
+console.log(squareCalc(num));
